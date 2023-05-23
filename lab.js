@@ -110,10 +110,10 @@ let passingScore = 7;
 */
 
 for(let i = 0; i < passingScore; i++){
-  if(i < passingScore) {
-    console.log(`Your score of ${i} is not high enough`)
-    score += 1
+  if(score < passingScore) {
+    console.log(`Your score of ${score} is not high enough`)
   }
+  score++
 }
 
 ////////// INTERMEDIATE PROBLEMS //////////
