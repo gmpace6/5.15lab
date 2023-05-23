@@ -126,7 +126,7 @@ for(let i = 0; i < passingScore; i++){
 */
 
 let changeMyMind = true
-if(changeMyMind === true){
+if(changeMyMind === true) {
   changeMyMind = false
 } else {changeMyMind = true
 }
